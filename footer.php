@@ -18,17 +18,17 @@
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Admissions</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Online fee Payement</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="../pages/admissions.php">Admissions</a></li>
+                        <li><a href="../pages/gallery.php">Gallery</a></li>
+                        <li><a href="../pages/contact.php">Contact Us</a></li>
+                        <li><a href="../pages/fee_payment.php">Online fee Payement</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Approved By AICTE.</h4>
-                    <img src="../assets/img/aic.png" alt="logo image" style="height:60%;" />
+                    <img src="../assets/img/aic.png" alt="logo image" style="height:50%;" />
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
@@ -47,7 +47,7 @@
 
             <div class="d-flex flex-column align-items-center align-items-lg-start">
                 <div>
-                    © Copyright <span>Developed</span> And Maintained by <a href="#">Information Technology Cell</a>
+                    © Copyright <span>Developed</span> And Maintained by <a href="#" style="color:#0ea2bd;">Information Technology Cell</a>
                 </div>
             </div>
 

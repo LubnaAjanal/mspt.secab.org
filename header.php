@@ -97,11 +97,11 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>Facilities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="../">Library</a></li>
-                            <li><a href="../">Additional Laboratories</a></li>
-                            <li><a href="../">Badminton Court & Sports Room</a></li>
-                            <li><a href="../">Open Auditorium</a></li>
-                            <li><a href="../">Hostel</a></li>
+                            <li><a href="../facilities/library.php">Library</a></li>
+                            <li><a href="../facilities/addl_library.php">Additional Laboratories</a></li>
+                            <li><a href="../facilities/badminton.php">Badminton Court & Sports Room</a></li>
+                            <li><a href="../facilities/auditorium.php">Open Auditorium</a></li>
+                            <li><a href="../facilities/hostel.php">Hostel</a></li>
                         </ul>
                     </li>
                     <li><a href="../pages/gallery1.php">Gallery</a></li>

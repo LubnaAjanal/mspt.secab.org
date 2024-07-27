@@ -92,8 +92,7 @@
     }
 
     .event-heading h2 {
-        /* color:#00CED1; */
-        background-color: black;
+        background-color: #0ea2bd;
     }
 </style>
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -157,10 +156,10 @@
 
             <div class="content-section news-events">
                 <div class="event-heading text-center bg-black">
-                    <h2><a href='https://mspt.secab.org/pdf/coe/2021-22.pdf' target="_blank">Calendar of Events</a></h2>
+                    <h2><a href='https://mspt.secab.org/pdf/coe/2021-22.pdf' target="_blank" style="color:#fff;">Calendar of Events</a></h2>
                 </div>
                 <div class="event-heading text-center bg-black">
-                    <h2><a href='#'>News and Events</a></h2>
+                    <h2><a href='#' style="color:#fff;">News and Events</a></h2>
                 </div>
                 <marquee direction="up" ONMOUSEOVER="this.stop();" ONMOUSEOUT="this.start();" scrollamount="2" width="100%" height="400px" loop="true">
                     <div class="event-item">
