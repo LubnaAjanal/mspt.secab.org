@@ -87,7 +87,7 @@
 <section>
     <div class="container">
         <div class="renewable">
-            <h2 class="heading mb-3" style="width:40%;">Renewable Energy Model Lab</h2>
+            <h2 class="mb-3">Renewable Energy Model Lab</h2>
             <div class="content">
                 <p>Welcome to the MSPT Renewable Energy Model Laboratory. Models help the students to visualize something that is difficult to see or understand. The lab has various renewable energy models such as Wind and Solar Energy which helps students in understanding the process and allows the students to inculcate the idea of renewable energy sources.</p>
             </div>
@@ -119,7 +119,7 @@
         </div>
 
         <div class="robotics">
-            <h2 class="heading mb-3" style="width:20%; ">Robotics Lab</h2>
+            <h2 class="mb-3">Robotics Lab</h2>
             <div class="content">
                 <p>Welcome to the MSPT Robotics Laboratory - The Innovation Zone. The lab is powered to acquaint students with state-of-the-art equipment such as 3D printer, robotics and electronics development tools, IoT, sensors etc</p>
                 <p>The lab activities are designed to spur the spark of creativity, and go beyond regular curriculum and text book learning. The Robotics lab will let students explore skills of future such as design and computational thinking, adaptive learning and artificial intelligence</p>
@@ -176,7 +176,7 @@
         </div>
 
         <div class="solar_pv">
-            <h2 class="heading mb-3" style="width:30%; ">Solar PV Laboratory</h2>
+            <h2 class="mb-3">Solar PV Laboratory</h2>
             <div class="content">
                 <p>Welcome to MSPT Solar PV Laboratory. The laboratory has been designed for students to understand practical aspects of solar systems installation and operations. The Solar PV demo unit provides a platform for students to work on industrial equipment, by means of experiments and understand their installation, operations and maintenance aspects in addition to actual site visits accompanied by experts from the solar industry</p>
             </div>

@@ -202,7 +202,7 @@
 </section>
 
 <div class="container">
-    <h2 class="heading" style="width:15%; margin-left:40%;">Library</h2>
+    <h3 class="heading2" style="width:15%;">Library</h3>
     <div class="library">
         <p>The library and information centre was established in the year 1983 and it has a vast collection of text books, reference books, bound volumes, national and international journals, E- books, E- journals, encyclopedia and other multimedia resources. Library has 22641 volumes and subscription for 5 technical journals and 5 daily newspapers.</p>
         <p>E- Journals are subscribed from E-Resource Consortium, which is a value added service to the readers and has a collection of 8611 e-journals. These resources are IP based and can be accessed through Digital library. Library has a Membership of DELNET, New Delhi and National Digital Library of India, IIT Kharagpur.</p>

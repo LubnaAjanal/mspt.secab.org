@@ -84,12 +84,12 @@
                                 <ul>
                                     <li><a href="../activities/independence.php">Independence Day</a></li>
                                     <li><a href="../activities/republic.php">Republic Day</a></li>
-                                    <li><a href="../activities/independence.php">Womens Day</a></li>
-                                    <li><a href="../activities/independence.php">Environmental Day</a></li>
-                                    <li><a href="../activities/independence.php">World Dignity Day</a></li>
+                                    <li><a href="../activities/womens_day.php">Womens Day</a></li>
+                                    <li><a href="../activities/environmental.php">Environmental Day</a></li>
+                                    <li><a href="../activities/world_dignity.php">World Dignity Day</a></li>
                                 </ul>
                             </li>
-                            <li><a href="../">Cultural Events</a></li>
+                            <li><a href="../activities/cultural.php">Cultural Events</a></li>
                             <li><a href="../">Sports</a></li>
                             <li><a href="../">Tech Zeal</a></li>
                             <li><a href="../">Project Exhibition</a></li>
