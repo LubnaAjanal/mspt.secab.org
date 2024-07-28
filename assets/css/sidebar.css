@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  
+  .side-navbar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    font-size: 15px;
+    margin-left: -300px;
+    background-color: #0ea2bd;
+    transition: 0.5s;
+  }
+  
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  
+  .my-container {
+    transition: 0.5s;
+  }
+
+  .my-container .top-navbar{
+    background-color: #0ea2bd;
+    color: #fff;
+  }
+
+  .my-container .top-navbar .dept-name{
+    flex: 1;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  /* for main section */
+  .active-cont {
+    margin-left: 250px;
+  }
+  
+  #menu-btn {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  /* .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+  } */
+
+  
