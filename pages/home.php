@@ -101,7 +101,7 @@
 <main class="main">
     <!-- Gallery Section -->
     <!-- Swiper -->
-    <div class="swiper-container">
+    <!-- <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="../assets/img/home_gallery/s1.jpg" alt="Image 1"></div>
             <div class="swiper-slide"><img src="../assets/img/home_gallery/s2.jpg" alt="Image 2"></div>
@@ -122,13 +122,13 @@
             <div class="swiper-slide"><img src="../assets/img/home_gallery/s18.jpg" alt="Image 18"></div>
             <div class="swiper-slide"><img src="../assets/img/home_gallery/s19.jpg" alt="Image 19"></div>
             <div class="swiper-slide"><img src="../assets/img/home_gallery/campus_drive.jpg" alt="Image 20"></div>
-        </div>
+        </div> -->
         <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
         <!-- Add Navigation -->
-        <div class="swiper-button-next"></div>
+        <!-- <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-    </div>
+    </div> -->
     <!-- /Gallery Section -->
 
     <!-- College and News Section -->
