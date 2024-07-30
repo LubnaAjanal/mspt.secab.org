@@ -27,21 +27,14 @@
     <!-- Main CSS File -->
     <link href="../assets/css/main.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: HeroBiz
-  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-    ======================================================== -->
 </head>
 
 <body class="index-page">
     <header id="header" class="header align-items-center sticky-top">
         <!-- Flexible Image -->
-    <div class="sticky-top">
-        <img src="../assets/img/mspt large.jpg" alt="Flexible Image" style="width:100%;height:150px;">
-    </div>
+        <div class="sticky-top">
+            <img src="../assets/img/mspt large.jpg" alt="Flexible Image" style="width:100%;height:150px;">
+        </div>
         <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -90,9 +83,9 @@
                                 </ul>
                             </li>
                             <li><a href="../activities/cultural.php">Cultural Events</a></li>
-                            <li><a href="../">Sports</a></li>
-                            <li><a href="../">Tech Zeal</a></li>
-                            <li><a href="../">Project Exhibition</a></li>
+                            <li><a href="../activities/sports.php">Sports</a></li>
+                            <li><a href="../activities/tech_zeal.php">Tech Zeal</a></li>
+                            <li><a href="../activities/project_exhibition.php">Project Exhibition</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Facilities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -105,10 +98,13 @@
                         </ul>
                     </li>
                     <li><a href="../pages/gallery1.php">Gallery</a></li>
-                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-                    <!-- <li><a href="#team">Contact Us</a></li> -->
                     <li><a href="../pages/contact.php">Contact Us</a></li>
                     <li><a href="../pages/fee_payment.php">Online Fee Payment</a></li>
+                    <li><a href="../pages/grcell.php">Grievance Redressal Cell</a></li>
+                    <li><a href="../pages/scholarship.php">Scholarship Cell</a></li>
+                    <li><a href="../pages/mou.php">MOU's</a></li>
+                    <li><a href="https://students.secab.org/" >Student Feedback</a></li>
+                    <li><a href="https://alumni.secab.org/" target="_blank">Alumni</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>

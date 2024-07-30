@@ -21,34 +21,6 @@
 
     }
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    thead {
-        background-color: #0ea2bd;
-    }
-
-    th,
-    td {
-        padding: 12px;
-        border: 1px solid #ddd;
-        text-align: left;
-    }
-
-    th {
-        background-color: #0ea2bd;
-        color: #fff;
-    }
-
-    tbody tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-
-    tbody tr:hover {
-        background-color: #dbf1f5;
-    }
 
     /* Cards Styling for Other States and Country */
     .card-header {
@@ -83,28 +55,28 @@
 
         <ul class="nav nav-tabs row gy-4 d-flex">
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                     <!-- <i class="bi bi-binoculars" style="color: #0dcaf0;"></i> -->
                     <h4>Diploma</h4>
                 </a>
             </li><!-- End Tab 1 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
                     <!-- <i class="bi bi-box-seam" style="color: #6610f2;"></i> -->
                     <h4>Other States</h4>
                 </a>
             </li><!-- End Tab 2 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
                     <!-- <i class="bi bi-brightness-high" style="color: #20c997;"></i> -->
                     <h4>Other Countries</h4>
                 </a>
             </li><!-- End Tab 3 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
                     <!-- <i class="bi bi-brightness-high" style="color: #20c997;"></i> -->
                     <h4>Enquiry Form</h4>
@@ -116,7 +88,7 @@
 
             <div class="tab-pane fade active show" id="features-tab-1">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
                         <div>
                             <h3>Diploma Admission Details</h3>
                             <p class="fst-italic">
@@ -225,7 +197,7 @@
 
             <div class="tab-pane fade" id="features-tab-2">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Other States</h3>
                         <p>
                             Students from other states such as Maharashtra, Gujarat, Telangana, Bihar, Uttar Pradesh, Goa enrol in M.S.P.T every year.
@@ -234,7 +206,7 @@
                         <h3>Representatives in other states:</h3>
                         <div class="contact-info">
                             <div class="row">
-                                <div class="col-md-5">
+                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-header">Mumbai</div>
                                         <div class="card-body">
@@ -247,7 +219,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-header">Gujrat</div>
                                         <div class="card-body">
@@ -261,7 +233,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5 mt-4">
+                                <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-header">Kolkata</div>
                                         <div class="card-body">
@@ -273,7 +245,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5 mt-4">
+                                <div class="col-md-4 mt-3">
                                     <div class="card">
                                         <div class="card-header">Bihar</div>
                                         <div class="card-body">
@@ -295,7 +267,7 @@
 
             <div class="tab-pane fade" id="features-tab-3">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Other Countries</h3>
                         <p>
                             Students from countries like Nepal, Srilanka, UAE, Saudi Arabia enroll in MSPT every year.
@@ -304,7 +276,7 @@
                         <h3>Representatives in other countries:</h3>
                         <div class="contact-info">
                             <div class="row">
-                                <div class="col-md-5">
+                                <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-header">Nepal</div>
                                         <div class="card-body">
@@ -315,7 +287,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-header">Dubai</div>
                                         <div class="card-body">
@@ -326,7 +298,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5 mt-4">
+                                <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-header">Kenya</div>
                                         <div class="card-body">
@@ -338,7 +310,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5 mt-4">
+                                <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-header">U.K.</div>
                                         <div class="card-body">
