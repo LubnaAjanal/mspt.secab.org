@@ -1,7 +1,7 @@
 <style>
     /* home carousel slider */
     .carousel .carousel-inner {
-        height: 500px;
+        height: 400px;
         object-fit: cover;
     }
 
@@ -274,25 +274,39 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
         </div>
         <div class="vision">
             <h3>Vision</h3>
-            <p><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> To provide excellent and value based commerce education.</p>
+            <p><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> To develop quality technical education in the field of Electronics and Communication Engineering for the progressive transformation with a focus on the need of the students and the department.</p>
         </div>
         <div class="mission">
             <h3>Mission</h3>
-            <p>We commit to achieve our vision by:</p>
+            <p>The department of Electronics and Communication Engineering is committed to achieve its vision by</p>
             <ul>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Empowering students with all the knowledge and guidance that they need to become successful professionals.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Training them with required skills for self-employment.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Conducting educational programs that encourage learning at every stage of life.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Developing social consciousness among students.</li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Imparting technical knowledge through Outcome Based Education.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Providing expertise in the form of activities like guest lectures, industrial visits, workshops for developing practical skills on recent tools and technologies.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Grooming students to pursue higher education and career enhancement programmes.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Collaborating and connecting with stakeholders for the sustainable development of the department.
+                </li>
             </ul>
         </div>
         <div class="mission">
             <h3>Program Educational Objectives (PEOs)</h3>
-            <p>We commit to achieve our vision by:</p>
+            <p>After the completion of program, diploma graduates will able to:</p>
             <ul>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 1:</b> Emonstrate a knowledge of core subjects in shorthand, typing and computers, Accountancy, Statistics and business operation skills.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 2:</b> Apply skills learnt through participation in seminars, projects, team work, competitions and communication activities.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 3:</b> Analyse environmental issues, business ethics and inculcate social responsibilities.</li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 1:</b>
+                    Utilize their core knowledge, skills, resources to design, develop and evaluate engineering problems using creative and innovative tools and techniques.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 2:</b>
+                    Acquire education that motivates them for their professional career and adopt evolving technologies to be lifelong learners.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 3:</b>
+                    Provide ethically responsible and environment friendly solutions to engineering problems.
+                </li>
             </ul>
         </div>
 
@@ -303,25 +317,41 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
         </div>
         <div class="vision">
             <h3>Vision</h3>
-            <p><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> To provide excellent and value based commerce education.</p>
+            <p><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                To impart Technical Education in the field of Mechanical Engineering for the progressive transformation of individuals and society.
+            </p>
         </div>
         <div class="mission">
             <h3>Mission</h3>
-            <p>We commit to achieve our vision by:</p>
+            <p>The mission of the Department of Mechanical Engineering is to achieve our vision by:</p>
             <ul>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Empowering students with all the knowledge and guidance that they need to become successful professionals.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Training them with required skills for self-employment.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Conducting educational programs that encourage learning at every stage of life.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> Developing social consciousness among students.</li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Providing Outcome Based Education through quality teaching learning process.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Imparting technical skills by conducting hands-on training programs/workshop on recent trends and technologies.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Adopting technological changes that encouraged learning at every stage of life.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i>
+                    Strengthening relationship with stakeholders for overall development of the department.
+                </li>
             </ul>
         </div>
         <div class="mission">
             <h3>Program Educational Objectives (PEOs)</h3>
-            <p>We commit to achieve our vision by:</p>
+            <p>Graduates of Mechanical Engineering will be able to:</p>
             <ul>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 1:</b> Emonstrate a knowledge of core subjects in shorthand, typing and computers, Accountancy, Statistics and business operation skills.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 2:</b> Apply skills learnt through participation in seminars, projects, team work, competitions and communication activities.</li>
-                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 3:</b> Analyse environmental issues, business ethics and inculcate social responsibilities.</li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 1:</b>
+                Have successful career in various domains of Mechanical Engineering by demonstrating sound engineering fundamentals.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 2:</b>
+                Apply analytical skills so as to enable resolving complex industrial and societal problems in the area of Mechanical Engineering.
+                </li>
+                <li><i class="bi bi-caret-right-fill" style="color:#0ea2bd"></i> <b>PEO 3:</b>
+                Develop lifelong learning attitude in the field of Mechanical Engineering by continuously enhancing the knowledge.
+                </li>
             </ul>
         </div>
 

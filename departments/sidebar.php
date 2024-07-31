@@ -22,61 +22,80 @@
             <?php
             $departmentName = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             ?>
-            <li href="#" class="nav-link active">
-                <i class="bi bi-house-door"></i>
-                <span class="mx-2">Home</span>
+            <li class="nav-item">
+                <a href="?page=home&department=<?php echo $departmentName ?>" class="nav-link active">
+                    <i class="bi bi-house-door"></i>
+                    <span class="mx-2">Home</span>
+                </a>
             </li>
-            <li href="#" class="nav-link">
-                <i class="bi bi-globe-americas"></i>
-                <span class="mx-2">Overview</span>
+            <li class="nav-item">
+                <a href="?page=home&department=<?php echo $departmentName ?>" class="nav-link">
+                    <i class="bi bi-globe-americas"></i>
+                    <span class="mx-2">Overview</span>
+                </a>
             </li>
-            <li href="#" class="nav-link">
-                <i class="bi bi-person"></i>
-                <span class="mx-2">HOD Message</span>
+            <li class="nav-item">
+                <a href="?page=hod_msg&department=<?php echo $departmentName ?>" class="nav-link">
+                    <i class="bi bi-person"></i>
+                    <span class="mx-2">HOD Message</span>
+                </a>
             </li>
-            <li href="#" class="nav-link">
-                <i class="bi bi-person-bounding-box"></i>
-                <span class="mx-2">Faculty Profile</span>
+            <li class="nav-item">
+                <a href="?page=faculty_profile&department=<?php echo $departmentName ?>" class="nav-link">
+                    <i class="bi bi-person-bounding-box"></i>
+                    <span class="mx-2">Faculty Profile</span>
+                </a>
             </li>
             <?php if ($departmentName != 'Basic Science') {
-                echo '<li class="nav-link">
+                echo '<li class="nav-item">
+                <a href="?page=non_teaching_staff&department='.$departmentName.'" class="nav-link">
                     <i class="bi bi-person-exclamation"></i>
                     <span class="mx-2">Non-Teaching Staff</span>
-                    </li>';
+                </a>
+            </li>';
             }
             ?>
-            <li href="#" class="nav-link">
-                <i class="bi bi-people"></i>
-                <span class="mx-2">Guest Lectures</span>
+            <li class="nav-item">
+                <a href="?page=guest_lectures&department=<?php echo $departmentName ?>" class="nav-link">
+                    <i class="bi bi-people"></i>
+                    <span class="mx-2">Guest Lectures</span>
+                </a>
             </li>
             <?php if ($departmentName != 'Basic Science') {
-                echo '<li class="nav-link">
-                    <i class="bi bi-caret-right"></i>
-                    <span class="mx-2">Industrial/Site Visit</span>
-                    </li>';
-                echo '<li class="nav-link">
-                    <i class="bi bi-caret-right"></i>
-                    <span class="mx-2">Workshops and Inplant Trainings</span>
-                    </li>';
-                echo '<li class="nav-link">
-                    <i class="bi bi-caret-right"></i>
-                    <span class="mx-2">Recognized Students Projects</span>
-                    </li>';
-            }
-            ?>
-            <li href="#" class="nav-link">
-                <i class="bi bi-file-earmark"></i>
-                <span class="mx-2">E-Resource</span>
+                echo '<li class="nav-item">
+                    <a href="?page=industrial_visit&department='.$departmentName.'" class="nav-link">
+                        <i class="bi bi-caret-right"></i>
+                        <span class="mx-2">Industrial/Site Visit</span>
+                    </a>
+                </li>';
+                echo '<li class="nav-item">
+                    <a href="?page=workshops_trainings&department='.$departmentName.'" class="nav-link">
+                        <i class="bi bi-caret-right"></i>
+                        <span class="mx-2">Workshops and Inplant Trainings</span>
+                    </a>
+                </li>';
+                echo '<li class="nav-item">
+                    <a href="?page=recognized_projects&department='.$departmentName.'" class="nav-link">
+                        <i class="bi bi-caret-right"></i>
+                        <span class="mx-2">Recognized Students Projects</span>
+                    </a>
+                </li>';
+            } ?>
+            <li class="nav-item">
+                <a href="?page=e_resource&department=<?php echo $departmentName ?>" class="nav-link">
+                    <i class="bi bi-file-earmark"></i>
+                    <span class="mx-2">E-Resource</span>
+                </a>
             </li>
             <?php if ($departmentName != 'Basic Science') {
-                echo '<li class="nav-link">
-                    <i class="bi bi-camera"></i>
-                    <span class="mx-2">Gallery</span>
-                    </li>';
-            }
-            ?>
+                echo '<li class="nav-item">
+                    <a href="?page=gallery&department='.$departmentName.'" class="nav-link">
+                        <i class="bi bi-camera"></i>
+                        <span class="mx-2">Gallery</span>
+                    </a>
+                </li>';
+            } ?>
         </ul>
-
     </div>
 
     <!-- Main Wrapper -->
@@ -90,9 +109,15 @@
 
         <!-- main right side content -->
         <div class="container mt-1">
-        <?php
-        include '../departments/home.php';
-        ?>
+            <?php
+            $page = isset($_GET['page']) ? $_GET['page'] : 'home';
+            $allowed_pages = ['home', 'hod_msg', 'faculty_profile', 'non_teaching_staff', 'guest_lectures', 'industrial_visit', 'workshops_trainings', 'recognized_projects', 'e_resource', 'gallery'];
+            if (in_array($page, $allowed_pages)) {
+                include "../departments/{$page}.php";
+            } else {
+                include '../departments/home.php';
+            }
+            ?>
         </div>
     </div>
 

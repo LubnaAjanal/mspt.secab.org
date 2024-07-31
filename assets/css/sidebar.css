@@ -18,25 +18,33 @@ START SIDEBAR
 -------------------------------- */
 .side-navbar {
   cursor: pointer;
-  width: 300px;
+  width: 400px;
   height: 100%;
   position: fixed;
   font-size: 15px;
-  margin-left: -300px;
+  margin-left: -400px;
+  color: #fff;
   background-color: #0ea2bd;
   transition: 0.5s;
+}
+
+.nav .nav-item .nav-link span,
+.nav .nav-item .nav-link i {
+  color:#fff;
+  font-weight: bold;
+  font-size:20px;
 }
 
 .nav-link.active,
 .nav-link:focus,
 .nav-link:hover {
+  color: #fff;
   background-color: #ffffff26;
 }
 
 .my-container {
   transition: 0.5s;
 }
-
 
 .my-container .top-navbar {
   background-color: #0ea2bd;
@@ -56,7 +64,7 @@ START SIDEBAR
 
 /* for main section */
 .active-cont {
-  margin-left: 300px;
+  margin-left: 400px;
 }
 
 #menu-btn {
@@ -64,9 +72,6 @@ START SIDEBAR
   font-size: 30px;
 }
 
-.nav-link .bi {
-  font-size: 15px;
-}
 
 /*-------------------------------
 END SIDEBAR 
