@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../headerPages/header.php');
 ?>
 
 <div class="container mt-5">
@@ -22,21 +22,21 @@ include('../header.php');
 
         <ul class="nav nav-tabs row gy-4 d-flex">
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                     <!-- <i class="bi bi-binoculars" style="color: #0dcaf0;"></i> -->
                     <h4>Activities</h4>
                 </a>
             </li><!-- End Tab 1 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
                     <!-- <i class="bi bi-box-seam" style="color: #6610f2;"></i> -->
                     <h4>Outdoor Facilities</h4>
                 </a>
             </li><!-- End Tab 2 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
                     <!-- <i class="bi bi-brightness-high" style="color: #20c997;"></i> -->
                     <h4>Indoor Facilities</h4>
@@ -48,7 +48,7 @@ include('../header.php');
 
             <div class="tab-pane fade active show" id="features-tab-1">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
                         <div>
                             <h3>The Annual Sports Meet 2018-19</h3>
                             <p class="fst-italic" style="text-align:justify;">
@@ -115,15 +115,12 @@ include('../header.php');
                         </div>
                         <?php include('2023-24.php'); ?>
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/features-1.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 1 -->
 
             <div class="tab-pane fade" id="features-tab-2">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Outdoor Facilities</h3>
                         <ul>
                             <li><i class="bi bi-check-circle-fill"></i> Athletics</li>
@@ -135,15 +132,12 @@ include('../header.php');
                         </ul>
                         
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-2.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 2 -->
 
             <div class="tab-pane fade" id="features-tab-3">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Indoor Facilities</h3>
                         <ul>
                             <li><i class="bi bi-check-circle-fill"></i> Badminton</li>
@@ -151,9 +145,6 @@ include('../header.php');
                             <li><i class="bi bi-check-circle-fill"></i> Chess</li>
                             <li><i class="bi bi-check-circle-fill"></i> Carrom</li>
                         </ul>
-                    </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-3.svg" alt="" class="img-fluid">
                     </div>
                 </div>
             </div><!-- End Tab Content 3 -->
@@ -165,6 +156,6 @@ include('../header.php');
 
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>

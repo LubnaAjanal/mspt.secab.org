@@ -128,7 +128,7 @@
     <div class="container section-title" data-aos="fade-up">
     </div><!-- End Section Title -->
 
-    <img src="assets/img/mspt_building_final.jpg" class="testimonials-bg" alt="">
+    <img src="../assets/img/mspt_building_final.jpg" class="testimonials-bg" alt="">
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -152,7 +152,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <img src="assets/img/vm/msg1.jpg" class="testimonial-img" alt="">
+                        <img src="../assets/img/vm/msg1.jpg" class="testimonial-img" alt="">
                         <h3>S A Punekar</h3>
                         <h4>Founder &amp; President</h4>
                         <!-- <div class="stars">
@@ -170,7 +170,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <img src="assets/img/vm/fac2.jpg" class="testimonial-img" alt="">
+                        <img src="../assets/img/vm/fac2.jpg" class="testimonial-img" alt="">
                         <h3>Mr. Talha Attar</h3>
                         <h4>Principal</h4>
                         <!-- <div class="stars">
@@ -190,7 +190,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <img src="assets/img/vm/v.jpg" class="testimonial-img" alt="">
+                        <img src="../assets/img/vm/v.jpg" class="testimonial-img" alt="">
                         <h3>Institute Vision</h3>
                         <!-- <h4>Store Owner</h4> -->
                         <!-- <div class="stars">
@@ -207,7 +207,7 @@
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <img src="assets/img/vm/m.webp" class="testimonial-img" alt="">
+                        <img src="../assets/img/vm/m.webp" class="testimonial-img" alt="">
                         <h3>Institute Mission</h3>
                         <!-- <div class="stars">
                             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>

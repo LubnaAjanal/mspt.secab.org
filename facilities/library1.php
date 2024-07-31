@@ -39,35 +39,35 @@
 
         <ul class="nav nav-tabs row gy-4 d-flex">
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3">
                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                     <!-- <i class="bi bi-binoculars" style="color: #0dcaf0;"></i> -->
                     <h4>About The Library</h4>
                 </a>
             </li><!-- End Tab 1 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
                     <!-- <i class="bi bi-box-seam" style="color: #6610f2;"></i> -->
                     <h4>Library Services</h4>
                 </a>
             </li><!-- End Tab 2 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
                     <!-- <i class="bi bi-brightness-high" style="color: #20c997;"></i> -->
                     <h4>Facilities</h4>
                 </a>
             </li><!-- End Tab 3 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
                     <!-- <i class="bi bi-brightness-high" style="color: #20c997;"></i> -->
                     <h4>Staff</h4>
                 </a>
             </li><!-- End Tab 4 Nav -->
 
-            <li class="nav-item col-6 col-md-4 col-lg-2">
+            <li class="nav-item col-6 col-md-4 col-lg-3 mb-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5">
                     <!-- <i class="bi bi-brightness-high" style="color: #20c997;"></i> -->
                     <h4>E-Resources</h4>

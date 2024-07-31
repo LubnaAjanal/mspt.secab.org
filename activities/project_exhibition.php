@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+include('../headerPages/header.php');
 ?>
 
 <section>
@@ -176,8 +176,8 @@ include('../header.php');
 </section>
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>
 
 <script>

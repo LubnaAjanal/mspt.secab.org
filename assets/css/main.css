@@ -100,11 +100,13 @@ td {
   padding: 12px;
   border: 1px solid #ddd;
   text-align: left;
+  font-size: 15px;
 }
 
 th {
   background-color: #0ea2bd;
   color: #fff;
+  font-size: 17px;
 }
 
 tbody tr:nth-child(even) {

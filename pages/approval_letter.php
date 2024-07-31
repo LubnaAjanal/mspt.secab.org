@@ -1,4 +1,4 @@
-<?php include('../header.php'); ?>
+<?php include('../headerPages/header.php'); ?>
 
 <section class="college-committees mt-5 mb-5">
     <h2>APPROVAL LETTERS</h2>
@@ -11,6 +11,6 @@
 </section>
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>

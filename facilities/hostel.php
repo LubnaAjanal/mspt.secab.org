@@ -1,4 +1,4 @@
-<?php include('../header.php'); ?>
+<?php include('../headerPages/header.php'); ?>
 
 <style>
     .hostel-content h3 {
@@ -164,6 +164,6 @@
 </section>
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>

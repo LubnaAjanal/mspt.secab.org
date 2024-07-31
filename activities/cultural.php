@@ -1,4 +1,4 @@
-<?php include('../header.php'); ?>
+<?php include('../headerPages/header.php'); ?>
 <style>
     .carousel-gallery {
         margin: 50px 0;
@@ -320,6 +320,6 @@
 
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>

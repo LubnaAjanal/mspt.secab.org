@@ -29,9 +29,11 @@
     transition: 0.5s;
   }
 
+
   .my-container .top-navbar{
     background-color: #0ea2bd;
     color: #fff;
+    overflow: hidden;
   }
 
   .my-container .top-navbar .dept-name{
@@ -46,7 +48,7 @@
   
   /* for main section */
   .active-cont {
-    margin-left: 250px;
+    margin-left: 300px;
   }
   
   #menu-btn {
@@ -54,9 +56,8 @@
     font-size: 30px;
   }
   
-  /* .my-container input {
-    border-radius: 2rem;
-    padding: 2px 20px;
-  } */
+  .nav-link .bi{
+    font-size: 15px;
+  }
 
   

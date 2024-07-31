@@ -1,4 +1,4 @@
-<?php include('../header.php'); ?>
+<?php include('../headerPages/header.php'); ?>
 
 <main class="main">
     <!-- Page Title -->
@@ -204,6 +204,6 @@
 </main>
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>

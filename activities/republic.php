@@ -1,4 +1,4 @@
-<?php include('../header.php'); ?>
+<?php include('../headerPages/header.php'); ?>
 
 <h2 class="heading mt-5 mb-5" style="width:30%; margin-left:35%;">Republic Day Celebration</h2>
 <div class="container">
@@ -55,6 +55,6 @@
 
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>

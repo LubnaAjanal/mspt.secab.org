@@ -1,4 +1,4 @@
-<?php include('../header.php'); ?>
+<?php include('../headerPages/header.php'); ?>
 <style>
     .courses-offered {
         background-color: #ffffff;
@@ -41,10 +41,10 @@
         height: 100%;
     }
 
-    .enquiry-form{
-        background-color: #FFF5EE;
+    .enquiry-form {
+        background-color: #fff;
         border-radius: 4px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     }
 </style>
 
@@ -189,9 +189,6 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/features-1.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 1 -->
 
@@ -259,9 +256,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-2.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 2 -->
 
@@ -325,15 +319,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-3.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 3 -->
 
             <div class="tab-pane fade" id="features-tab-4">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Enquiry Form</h3>
                         <!-- enquiry forum start-->
                         <div class="enquiry-form p-5">
@@ -440,9 +431,6 @@
                         </div>
                         <!-- enquiry forum end -->
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-4.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 4 -->
         </div>
@@ -452,6 +440,6 @@
 </section><!-- /Features Section -->
 
 <?php
-include('../top_footer.php');
-include('../footer.php');
+include('../headerPages/top_footer.php');
+include('../headerPages/footer.php');
 ?>
