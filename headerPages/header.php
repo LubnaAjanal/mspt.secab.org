@@ -63,14 +63,14 @@
                     <li><a href="../pages/admissions.php">Admissions</a></li>
                     <li class="dropdown"><a href="#"><span>Departments</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="../departments/basic_science.php?department=Basic%20Science">Basic Science</a></li>
-                            <li><a href="../departments/civil.php?department=Civil%20Engineering">Civil Engineering</a></li>
-                            <li><a href="../departments/computer_science.php?department=Computer%20Science%20Engineering">Computer Science & Engineering</a></li>
-                            <li><a href="../departments/electrical_electronics.php?department=Electrical%20and%20Electronics%20Engineering">Electrical & Electronics Engineering</a></li>
-                            <li><a href="../departments/electronics_communication.php?department=Electronics%20and%20Communication%20Engineering">Electronics & Communication Engineering</a></li>
-                            <li><a href="../departments/mechanical.php?department=Mechanical%20Engineering">Mechanical Engineering</a></li>
-                            <li><a href="../departments/apparel_design.php?department=Apparel%20Design%20and%20Fabrication%20Technology">Apparel Design & Fabrication Technology</a></li>
-                            <li><a href="../departments/commercial_practice.php?department=Commercial%20Practice">Commercial Practice</a></li>
+                            <li><a href="../departments/sidebar.php?department=Basic%20Science">Basic Science</a></li>
+                            <li><a href="../departments/sidebar.php?department=Civil%20Engineering">Civil Engineering</a></li>
+                            <li><a href="../departments/sidebar.php?department=Computer%20Science%20Engineering">Computer Science & Engineering</a></li>
+                            <li><a href="../departments/sidebar.php?department=Electrical%20and%20Electronics%20Engineering">Electrical & Electronics Engineering</a></li>
+                            <li><a href="../departments/sidebar.php?department=Electronics%20and%20Communication%20Engineering">Electronics & Communication Engineering</a></li>
+                            <li><a href="../departments/sidebar.php?department=Mechanical%20Engineering">Mechanical Engineering</a></li>
+                            <li><a href="../departments/sidebar.php?department=Apparel%20Design%20and%20Fabrication%20Technology">Apparel Design & Fabrication Technology</a></li>
+                            <li><a href="../departments/sidebar.php?department=Commercial%20Practice">Commercial Practice</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Activities</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>

@@ -18,12 +18,12 @@
 <body>
     <!-- Side-Nav -->
     <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
-        <ul class="nav flex-column text-white w-100 mt-3">
+        <ul class="nav flex-column text-white mt-3">
             <?php
-            $departmentName = isset($_GET['department']) ? $_GET['department'] : 'Responsive Sidebar Nav';
+            $departmentName = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             ?>
-            <li href=" #" class="nav-link active">
-            <i class="bi bi-house-door"></i>
+            <li href="#" class="nav-link active">
+                <i class="bi bi-house-door"></i>
                 <span class="mx-2">Home</span>
             </li>
             <li href="#" class="nav-link">
@@ -65,7 +65,7 @@
             }
             ?>
             <li href="#" class="nav-link">
-            <i class="bi bi-file-earmark"></i>
+                <i class="bi bi-file-earmark"></i>
                 <span class="mx-2">E-Resource</span>
             </li>
             <?php if ($departmentName != 'Basic Science') {
@@ -84,13 +84,16 @@
         <!-- Top Nav -->
         <nav class="navbar top-navbar navbar-light px-5">
             <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
-            <h3 class="dept-name"><?php echo htmlspecialchars($departmentName); ?></h3>
+            <h2 class="dept-name"><?php echo htmlspecialchars($departmentName); ?></h2>
         </nav>
         <!--End Top Nav -->
-        <h3 class=" text-dark p-3">RESPONSIVE SIDEBAR NAV 💻 📱
-        </h3>
-        <p class=" px-3">Responsive navigation sidebar built using <a class="text-dark" href="https://getbootstrap.com/">Bootstrap 5</a>.</p>
-        <p class="px-3"><a href="https://github.com/harshitjain-hj" class="text-dark">Checkout my Github</a></p>
+
+        <!-- main right side content -->
+        <div class="container mt-1">
+        <?php
+        include '../departments/home.php';
+        ?>
+        </div>
     </div>
 
     <!-- bootstrap js -->
