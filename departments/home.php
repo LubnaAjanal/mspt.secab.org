@@ -52,14 +52,14 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
 <!-- START GALLERY FOR ALL DEPTS -->
 <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
-        <?php if ($department == "Basic Science") : ?>
+        <?php if ($department == "Applied Science") : ?>
             <div class="carousel-item active">
                 <img src="../assets/img/dept/basic/sldr24.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="../assets/img/dept/basic/sldr25.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
-        <?php elseif ($department == "Civil Engineering") : ?>
+        <?php elseif ($department == "Civil") : ?>
             <div class="carousel-item active">
                 <img src="../assets/img/dept/civil/sldr6.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
@@ -72,7 +72,7 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             <div class="carousel-item">
                 <img src="../assets/img/dept/civil/sldr24.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
-        <?php elseif ($department == "Computer Science Engineering") : ?>
+        <?php elseif ($department == "Computer Science") : ?>
             <div class="carousel-item active">
                 <img src="../assets/img/dept/cs/glr36.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
@@ -88,7 +88,7 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             <div class="carousel-item">
                 <img src="../assets/img/dept/cs/sldr5.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
-        <?php elseif ($department == "Electrical and Electronics Engineering") : ?>
+        <?php elseif ($department == "Electrical and Electronics") : ?>
             <div class="carousel-item active">
                 <img src="../assets/img/dept/ee/sldr15.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
@@ -111,7 +111,7 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             <div class="carousel-item">
                 <img src="../assets/img/dept/ec/sldr23.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
-        <?php elseif ($department == "Mechanical Engineering") : ?>
+        <?php elseif ($department == "Mechanical") : ?>
             <div class="carousel-item active">
                 <img src="../assets/img/dept/mech/sldr10.jpg" class="img-responsive d-block w-100" alt="...">
             </div>
@@ -162,14 +162,14 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
 <!-- START OVERVIEW FOR ALL DEPTS -->
 <div class="overview-content">
     <h3>OVERVIEW</h3>
-    <?php if ($department == 'Basic Science') : ?>
+    <?php if ($department == 'Applied Science') : ?>
         <div class="programme-content">
             <p>The Department of Basic Science, which is an integral part of MSPT, offers instructions in Applied Science, Mathematics, English and Kannada to the students of all core branches for their first year Diploma Course.</p>
             <p>The department is devoted to foster the understanding of applied science principles. The objectives of the department is to inform and motivate students to study the fundamental aspect of science and its applications.</p>
             <p>To enable the students to analyze and apply mathematical and scientific techniques in engineering technology, the department motivates the students to have a scientific temperament. The students are inducted into the diploma engineering college through the basic science department.</p>
         </div>
 
-    <?php elseif ($department == 'Civil Engineering') : ?>
+    <?php elseif ($department == 'Civil') : ?>
         <div class="programme-content">
             <p>Civil Engineering is oldest branch of engineering which is growing right from Stone Age civilization.
                 Civil Engineers build our quality of life with creativity and technical skills. A civil Engineer is
@@ -205,7 +205,7 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             </ul>
         </div>
 
-    <?php elseif ($department == 'Computer Science Engineering') : ?>
+    <?php elseif ($department == 'Computer Science') : ?>
         <div class="programme-content">
             <p>The field of computer science is very broad, encompassing all aspects of the design, analysis, implementation and use of computer technology. The major areas of teaching includes Multimedia, Web Design, Data structure, Design Analysis of Algorithms, Operating System, DBMS, Java Programming, Software Testing, Computer Network etc.</p>
             <p>All the laboratories are equipped with hardware and software that are compliant with industry standard in terms of technology and environment. The students get an exposure to various aspects of computer hardware, software and practical handling of computers.</p>
@@ -235,7 +235,7 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             </ul>
         </div>
 
-    <?php elseif ($department == 'Electrical and Electronics Engineering') : ?>
+    <?php elseif ($department == 'Electrical and Electronics') : ?>
         <div class="programme-content">
             <p>Electrical and Electronics Engineering is an interdisciplinary subject, where the students will have a strong understanding of not only the courses related to electrical engineering but also gain knowledge in the subjects like electronics engineering, communication engineering and computer science engineering.</p>
             <p>The department is equipped with well designed and modern laboratories of electrical machines, power electronics, control system, circuits, measurements and computers etc.</p>
@@ -310,7 +310,7 @@ $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
             </ul>
         </div>
 
-    <?php elseif ($department == 'Mechanical Engineering') : ?>
+    <?php elseif ($department == 'Mechanical') : ?>
         <div class="programme-content">
             <p>Mechanical Engineering is a most versatile field. Mechanical Engineers are required to design, test, manufacture, install, operate and maintain a wide array of machines and mechanical systems that are used in countless industries. This includes thermodynamics, fluid flow, robotics and computer aided design etc. The development in computer technology has changed the face of mechanical engineering and also it enables mechanical engineering to develop efficient solutions to complex technical problems.</p>
             <p>The department has well equipped central workshop to develop skills in manufacturing and fabrication. The department organizes inplant trainings and industrial visits for the students to gain practical knowledge and develop industry student's relation, which motivate students towards entrepreneurship. The department also conducts various placements drives where the students are placed in high profile companies, and enables students to choose reputed institutions for higher education.</p>

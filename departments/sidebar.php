@@ -20,35 +20,54 @@
     <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
         <ul class="nav flex-column text-white mt-3">
             <?php
-            $departmentName = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
+            $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';            
+            //echo $departmentName;
+            $name = $department;
+            if ($department === 'Applied Science') {
+                $name = 'Basic Science';
+            } elseif ($department === 'Civil') {
+                $name = 'Civil Engineering';
+            } elseif ($department === 'Computer Science') {
+                $name = 'Computer Science Engineering';
+            } elseif ($department === 'Electrical and Electronics') {
+                $name = 'Electrical and Electronics Engineering';
+            } elseif ($department === 'Electronics and Communication Engineering') {
+                $name = 'Electronics and Communication Engineering';
+            } elseif ($department === 'Mechanical') {
+                $name = 'Mechanical Engineering';
+            } elseif ($department === 'Apparel Design and Fabrication Technology') {
+                $name = 'Apparel Design and Fabrication Technology';
+            } elseif ($department === 'Commercial Practice') {
+                $name = 'Commercial Practice';
+            }
             ?>
             <li class="nav-item">
-                <a href="?page=home&department=<?php echo $departmentName ?>" class="nav-link active">
+                <a href="?page=home&department=<?php echo $department ?>" class="nav-link active">
                     <i class="bi bi-house-door"></i>
                     <span class="mx-2">Home</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="?page=home&department=<?php echo $departmentName ?>" class="nav-link">
+                <a href="?page=home&department=<?php echo $department ?>" class="nav-link">
                     <i class="bi bi-globe-americas"></i>
                     <span class="mx-2">Overview</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="?page=hod_msg&department=<?php echo $departmentName ?>" class="nav-link">
+                <a href="?page=hod_msg&department=<?php echo $department ?>" class="nav-link">
                     <i class="bi bi-person"></i>
                     <span class="mx-2">HOD Message</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="?page=faculty_profile&department=<?php echo $departmentName ?>" class="nav-link">
+                <a href="?page=faculty_profile&department=<?php echo $department ?>" class="nav-link">
                     <i class="bi bi-person-bounding-box"></i>
                     <span class="mx-2">Faculty Profile</span>
                 </a>
             </li>
-            <?php if ($departmentName != 'Basic Science') {
+            <?php if ($department != 'Applied Science') {
                 echo '<li class="nav-item">
-                <a href="?page=non_teaching_staff&department='.$departmentName.'" class="nav-link">
+                <a href="?page=non_teaching_staff&department='.$department.'" class="nav-link">
                     <i class="bi bi-person-exclamation"></i>
                     <span class="mx-2">Non-Teaching Staff</span>
                 </a>
@@ -56,40 +75,40 @@
             }
             ?>
             <li class="nav-item">
-                <a href="?page=guest_lectures&department=<?php echo $departmentName ?>" class="nav-link">
+                <a href="?page=guest_lectures&department=<?php echo $department ?>&sec=Talk%20By%20Visitors" class="nav-link">
                     <i class="bi bi-people"></i>
                     <span class="mx-2">Guest Lectures</span>
                 </a>
             </li>
-            <?php if ($departmentName != 'Basic Science') {
+            <?php if ($department != 'Applied Science') {
                 echo '<li class="nav-item">
-                    <a href="?page=industrial_visit&department='.$departmentName.'" class="nav-link">
+                    <a href="?page=industrial_visit&department='.$department.'&sec=Industrial%20Visit" class="nav-link">
                         <i class="bi bi-caret-right"></i>
                         <span class="mx-2">Industrial/Site Visit</span>
                     </a>
                 </li>';
                 echo '<li class="nav-item">
-                    <a href="?page=workshops_trainings&department='.$departmentName.'" class="nav-link">
+                    <a href="?page=workshops_trainings&department='.$department.'&sec=Student%20Activities" class="nav-link">
                         <i class="bi bi-caret-right"></i>
                         <span class="mx-2">Workshops and Inplant Trainings</span>
                     </a>
                 </li>';
                 echo '<li class="nav-item">
-                    <a href="?page=recognized_projects&department='.$departmentName.'" class="nav-link">
+                    <a href="?page=recognized_projects&department='.$department.'" class="nav-link">
                         <i class="bi bi-caret-right"></i>
                         <span class="mx-2">Recognized Students Projects</span>
                     </a>
                 </li>';
             } ?>
             <li class="nav-item">
-                <a href="?page=e_resource&department=<?php echo $departmentName ?>" class="nav-link">
+                <a href="?page=e_resource&department=<?php echo $department ?>" class="nav-link">
                     <i class="bi bi-file-earmark"></i>
                     <span class="mx-2">E-Resource</span>
                 </a>
             </li>
-            <?php if ($departmentName != 'Basic Science') {
+            <?php if ($department != 'Applied Science') {
                 echo '<li class="nav-item">
-                    <a href="?page=gallery&department='.$departmentName.'" class="nav-link">
+                    <a href="?page=gallery&department='.$department.'" class="nav-link">
                         <i class="bi bi-camera"></i>
                         <span class="mx-2">Gallery</span>
                     </a>
@@ -103,7 +122,7 @@
         <!-- Top Nav -->
         <nav class="navbar top-navbar navbar-light px-5">
             <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
-            <h2 class="dept-name"><?php echo htmlspecialchars($departmentName); ?></h2>
+            <h2 class="dept-name"><?php echo ($name); ?></h2>
         </nav>
         <!--End Top Nav -->
 
