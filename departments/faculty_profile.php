@@ -11,14 +11,7 @@
     ></script>
     <style>
 
-body {
-    font-family: 'Times New Roman', Times, serif;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* min-height: 100vh; */
-  /* background: linear-gradient(#03a9f4, #03a9f4 45%, #fff 45%, #fff 100%); */
-}
+
 .card {
   position: relative;
   width: 300px;

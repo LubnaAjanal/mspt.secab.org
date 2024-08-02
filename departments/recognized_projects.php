@@ -62,10 +62,10 @@ $result = mysqli_query($conn, $sql);
             if ($result->num_rows > 0) {
             // Output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo "<li><a>" . $row["title"] . "</a></li>";
+                    echo "<li><i class='bi bi-check-circle-fill' style='font-size:20px;color:#0ea2bd; margin-right:8px;'></i><a>" . $row["title"] . "</a></li>";
                 }
             } else {
-                echo "<li>No guest lectures found for the selected department and section.</li>";
+                echo "<li><i class='bi bi-check-circle-fill' style='font-size:20px;color:#0ea2bd; margin-right:8px;'></i>No guest lectures found for the selected department and section.</li>";
             }
             $conn->close();
         ?>
