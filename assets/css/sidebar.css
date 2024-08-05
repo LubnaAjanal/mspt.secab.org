@@ -18,11 +18,11 @@ START SIDEBAR
 -------------------------------- */
 .side-navbar {
   cursor: pointer;
-  width: 400px;
+  width: 320px;
   height: 100%;
   position: fixed;
   font-size: 15px;
-  margin-left: -400px;
+  margin-left: -320px;
   color: #fff;
   background-color: #0ea2bd;
   transition: 0.5s;
@@ -32,7 +32,7 @@ START SIDEBAR
 .nav .nav-item .nav-link i {
   color:#fff;
   font-weight: bold;
-  font-size:20px;
+  font-size:15px;
 }
 
 .nav-link.active,
@@ -64,7 +64,7 @@ START SIDEBAR
 
 /* for main section */
 .active-cont {
-  margin-left: 400px;
+  margin-left: 320px;
 }
 
 #menu-btn {
