@@ -13,7 +13,7 @@
 </style>
 
 <section>
-    <h2 class="heading" style="width:50%; margin-left:25%;">World Environmental Day celebrated at MSPT</h2>
+    <h2 class="heading" style="width:70%; margin-left:15%;">World Environmental Day celebrated at MSPT</h2>
     <div class="container">
         <div class="environmental">
             <img src="../assets/img/activities/environmentalday.jpg" alt="environmental photo">

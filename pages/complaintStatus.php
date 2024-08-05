@@ -23,13 +23,13 @@
         <div class="container card-center">
             <div class="card" style="width: 30rem; height:15rem;">
                 <div class="card-header text-center">
-                    <h3>Make Online Payment</h3>
+                    <h3>Complaint Status</h3>
                 </div>
                 <div class="card-body mt-3">
                     <form>
                         <div class="form-group">
-                            <label for="usn" class="mb-2">Enter USN / Student ID</label>
-                            <input type="text" class="form-control" id="usn" placeholder="Enter USN / Student ID">
+                            <label for="usn" class="mb-2">Enter Your ID</label>
+                            <input type="text" class="form-control" id="cid" placeholder="Enter your ID">
                         </div>
                         <button type="submit" class="btn btn-primary btn-block mt-3 float-end">Submit</button>
                     </form>

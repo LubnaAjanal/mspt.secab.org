@@ -26,7 +26,7 @@
 
 
 <section>
-    <h2 class="heading " style="width:40%; margin-left:30%;">Women's Day Celebration At MSPT</h2>
+    <h2 class="heading " style="width:50%; margin-left:25%;">Women's Day Celebration At MSPT</h2>
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-4">

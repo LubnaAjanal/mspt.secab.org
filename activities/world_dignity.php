@@ -34,7 +34,7 @@
 </style>
 
 <section>
-    <h2 class="heading" style="width:50%; margin-left:25%;">World Dignity Day celebrated at MSPT</h2>
+    <h2 class="heading" style="width:60%; margin-left:20%;">World Dignity Day celebrated at MSPT</h2>
     <h4>Presided by Shree S.A Punekar, President SECAB Association.</h4>
     <div class="container">
         <div class="environmental">

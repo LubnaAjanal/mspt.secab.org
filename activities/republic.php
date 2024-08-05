@@ -1,6 +1,6 @@
 <?php include('../headerPages/header.php'); ?>
 
-<h2 class="heading mt-5 mb-5" style="width:30%; margin-left:35%;">Republic Day Celebration</h2>
+<h2 class="heading mt-5 mb-5" style="width:40%; margin-left:30%;">Republic Day Celebration</h2>
 <div class="container">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">

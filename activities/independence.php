@@ -25,7 +25,7 @@
     }
 </style>
 <section>
-    <h2 class="heading" style="width:25%; margin-left:40%;">INDEPENDENCE DAY</h2>
+    <h2 class="heading" style="width:30%; margin-left:35%;">INDEPENDENCE DAY</h2>
     <div class="container">
         <div class="programme row align-items-center mt-4">
             <div class="col-md-6">

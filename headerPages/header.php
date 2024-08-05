@@ -45,7 +45,7 @@
             </a>
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="../index.php" class="active">Home<br></a></li>
+                    <li><a href="../headerPages/index.php" class="active">Home<br></a></li>
                     <li class="dropdown"><a href="#"><span>Governance</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="https://mspt.secab.org/pdf/1.Governing%20council.pdf">Governing Council</a></li>
