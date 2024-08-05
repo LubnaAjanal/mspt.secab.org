@@ -56,7 +56,7 @@
             }
             ?>
             <li class="nav-item">
-                <a href="?page=guest_lectures&department=<?php echo $departmentName ?>" class="nav-link">
+                <a href="?page=guest_lectures&department=<?php echo $departmentName ?>?sec=Talk%20By%Visitors" class="nav-link">
                     <i class="bi bi-people"></i>
                     <span class="mx-2">Guest Lectures</span>
                 </a>
