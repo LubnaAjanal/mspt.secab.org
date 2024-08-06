@@ -18,11 +18,13 @@
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="../headerPages/index.php">Home</a></li>
                         <li><a href="../pages/admissions.php">Admissions</a></li>
                         <li><a href="../pages/gallery.php">Gallery</a></li>
                         <li><a href="../pages/contact.php">Contact Us</a></li>
                         <li><a href="../pages/fee_payment.php">Online fee Payement</a></li>
+                        <li><a href="https://alumni.secab.org/">Alumni</a></li>
+                        <li><a href="https://students.secab.org/">Student Feedback</a></li>
                     </ul>
                 </div>
 

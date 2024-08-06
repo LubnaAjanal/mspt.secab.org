@@ -16,9 +16,10 @@
       border-radius: 10px;
       background: linear-gradient(#03a9f4, #03a9f4 45%, #fff 45%, #fff 100%);
       /* background: rgba(255, 255, 255, 0.1); */
-      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
       backdrop-filter: blur(15px);
       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
     }
 
     .img-bx {
@@ -43,12 +44,13 @@
     }
 
     .content {
-      position: relative;
+      position: absolute;
+      top: 60%;
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
-      align-items: flex-end;
+      /* align-items: flex-direction; */
       padding-bottom: 2px;
     }
 
@@ -56,23 +58,25 @@
       display: inline-block;
       justify-content: center;
       align-items: center;
-      /* flex-direction: column; */
+      flex-direction: column;
       text-align: center;
+      /* height:100%; */
     }
 
     .content .detail h2 {
+      /* margin-top: 0; */
       color: #444;
-      font-size: 1.6em;
+      font-size: 18px;
       font-weight: bolder;
     }
 
     .content .detail h2 span {
-      font-size: 0.7em;
+      font-size:16px;
       color: #03a9f4;
       font-weight: bold;
     }
 
-    .sci {
+    /* .sci {
       position: relative;
       display: flex;
       margin-top: 5px;
@@ -101,7 +105,7 @@
     .sci li a:hover {
       background: #03a9f4;
       color: #fff;
-    }
+    } */
   </style>
 </head>
 <?php include '../dbFiles/conn.php';
@@ -127,12 +131,12 @@ $result = mysqli_query($conn, $sql);
               <div class="detail">
                 <h2><?= $row['fname'] ?><br /><span><?= $row['designation'] ?></span></h2>
                 <h6><?= $row['qualification'] ?></h6>
-                <ul class="sci">
+                <!-- <ul class="sci">
                   <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                   <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                   <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                </ul>
+                </ul> -->
               </div>
             </div>
           </div>

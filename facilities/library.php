@@ -76,7 +76,7 @@
         z-index: 10;
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-auto-columns: 100%;
         gap: 1.25rem;
         padding: 1rem;

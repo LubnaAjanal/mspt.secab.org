@@ -7,7 +7,7 @@
             <h1 class="mb-2 mb-lg-0">MSPT Gallery</h1>
             <nav class="breadcrumbs">
                 <ol>
-                    <li><a href="../index.php">Home</a></li>
+                    <li><a href="../headerPages/index.php">Home</a></li>
                     <li class="current">Gallery</li>
                 </ol>
             </nav>
@@ -18,9 +18,10 @@
     <section id="portfolio-details" class="portfolio-details">
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <!-- <div class="container section-title" data-aos="fade-up">
             <h2>MSPT Gallery</h2>
-        </div><!-- End Section Title -->
+        </div> -->
+        <!-- End Section Title -->
 
         <div class="container" data-aos="fade-up">
 
@@ -63,7 +64,7 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="assets/img/gallery/glr19.jpg" alt="">
+                        <img src="../assets/img/gallery/glr19.jpg" alt="">
                     </div>
 
                     <div class="swiper-slide">

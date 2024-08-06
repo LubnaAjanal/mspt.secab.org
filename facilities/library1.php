@@ -79,36 +79,36 @@
 
             <div class="tab-pane fade active show" id="features-tab-1">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-12 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
                         <div>
                             <h3>Library Collections:</h3>
                             <table>
                                 <tr>
-                                    <th>Titles</th>
+                                    <th style="background-color:#fff;color:black;">Titles</th>
                                     <td>4901</td>
                                 </tr>
                                 <tr>
-                                    <th>Volumes</th>
+                                    <th style="background-color:#fff;color:black;">Volumes</th>
                                     <td>22641</td>
                                 </tr>
                                 <tr>
-                                    <th>Bound Volumes</th>
+                                    <th style="background-color:#fff;color:black;">Bound Volumes</th>
                                     <td>152</td>
                                 </tr>
                                 <tr>
-                                    <th>National Journals</th>
+                                    <th style="background-color:#fff;color:black;">National Journals</th>
                                     <td>05</td>
                                 </tr>
                                 <tr>
-                                    <th>E-Journals</th>
+                                    <th style="background-color:#fff;color:black;">E-Journals</th>
                                     <td>8611</td>
                                 </tr>
                                 <tr>
-                                    <th>E-Books</th>
+                                    <th style="background-color:#fff;color:black;">E-Books</th>
                                     <td>2700</td>
                                 </tr>
                                 <tr>
-                                    <th>CD's/DVD's</th>
+                                    <th style="background-color:#fff;color:black;">CD's/DVD's</th>
                                     <td>1029</td>
                                 </tr>
                             </table>
@@ -116,15 +116,15 @@
                             <h3 class="mt-4">Library Timings</h3>
                             <table>
                                 <tr>
-                                    <th>Monday to Saturday</th>
+                                    <th style="background-color:#fff;color:black;">Monday to Saturday</th>
                                     <td>9.00 AM to 6.00 PM</td>
                                 </tr>
                                 <tr>
-                                    <th>(During Examination)</th>
+                                    <th style="background-color:#fff;color:black;">(During Examination)</th>
                                     <td>9.00 AM to 9.00 PM</td>
                                 </tr>
                                 <tr>
-                                    <th>Sunday</th>
+                                    <th style="background-color:#fff;color:black;">Sunday</th>
                                     <td>9.00 AM to 5.00 PM</td>
                                 </tr>
                             </table>
@@ -139,54 +139,51 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th>IEEE / IEL on-line</th>
+                                        <th style="background-color:#fff;color:black;">IEEE / IEL on-line</th>
                                         <td>214 journal, 1720+ conference proceedings, 3800 standards</td>
                                     </tr>
                                     <tr>
-                                        <th>Springer E-Journal</th>
+                                        <th style="background-color:#fff;color:black;">Springer E-Journal</th>
                                         <td>680 Journals</td>
                                     </tr>
                                     <tr>
-                                        <th>Tailor & Francis</th>
+                                        <th style="background-color:#fff;color:black;">Tailor & Francis</th>
                                         <td>536 Journals</td>
                                     </tr>
                                     <tr>
-                                        <th>Pro-Quest (Engineering & Management)</th>
+                                        <th style="background-color:#fff;color:black;">Pro-Quest (Engineering & Management)</th>
                                         <td>E-Journals</td>
                                     </tr>
                                     <tr>
-                                        <th>Knimbus</th>
+                                        <th style="background-color:#fff;color:black;">Knimbus</th>
                                         <td>E-Journals</td>
                                     </tr>
                                     <tr>
-                                        <th>KopyKitab</th>
+                                        <th style="background-color:#fff;color:black;">KopyKitab</th>
                                         <td>412 E-Journals</td>
                                     </tr>
                                     <tr>
-                                        <th>DELNET</th>
+                                        <th style="background-color:#fff;color:black;">DELNET</th>
                                         <td>400 E-Journals</td>
                                     </tr>
                                     <tr>
-                                        <th>Springer E-Books</th>
+                                        <th style="background-color:#fff;color:black;">Springer E-Books</th>
                                         <td>12823</td>
                                     </tr>
                                     <tr>
-                                        <th>E Books Downloaded</th>
+                                        <th style="background-color:#fff;color:black;">E Books Downloaded</th>
                                         <td>593</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/features-1.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 1 -->
 
             <div class="tab-pane fade" id="features-tab-2">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Library Services</h3>
                         <ul>
                             <li><i class="bi bi-check-circle-fill"></i> <b>Circulation of books:</b> Books meant in stack will be issued for its readers.</li>
@@ -237,16 +234,13 @@
 
                         <h3>Electronic Surveillances</h3>
                         <p>Four CCTV cameras are installed in the library premises for security measures.</p>
-                    </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-2.svg" alt="" class="img-fluid">
-                    </div>
+                    </div>                    
                 </div>
             </div><!-- End Tab Content 2 -->
 
             <div class="tab-pane fade" id="features-tab-3">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Facilities</h3>
                         <p>The MSPT library is housed separately with a carpet area of over 304 sqmt. The library services and resources are mentioned below.</p>
                         <h3>Boys Section</h3>
@@ -287,15 +281,12 @@
                             <li><i class="bi bi-arrow-right-square-fill"></i> Newspaper clippings etc.</li>
                         </ul>
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-3.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 3 -->
 
             <div class="tab-pane fade" id="features-tab-4">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>Staff</h3>
                         <table>
                             <thead>
@@ -340,15 +331,12 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-4.svg" alt="" class="img-fluid">
-                    </div>
                 </div>
             </div><!-- End Tab Content 4 -->
 
             <div class="tab-pane fade" id="features-tab-5">
                 <div class="row gy-4">
-                    <div class="col-lg-8 order-2 order-lg-1">
+                    <div class="col-lg-12 order-2 order-lg-1">
                         <h3>E-Resources</h3>
                         <table>
                             <thead>
@@ -461,10 +449,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div class="col-lg-4 order-1 order-lg-2 text-center">
-                        <img src="assets/img/features-4.svg" alt="" class="img-fluid">
-                    </div>
+                    </div>              
                 </div>
             </div><!-- End Tab Content 5 -->
         </div>

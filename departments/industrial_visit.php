@@ -34,7 +34,10 @@
     margin-bottom: 10px;
     border-radius: 5px;
 }
-
+.lecture-list li a {
+    text-decoration: none;
+    color:#333;
+}
 .lecture-list li:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
@@ -62,7 +65,7 @@ $result = mysqli_query($conn, $sql);
             if ($result->num_rows > 0) {
             // Output data of each row
                 while($row = $result->fetch_assoc()) {
-                    echo "<li><i class='bi bi-check-circle-fill' style='font-size:20px;color:#0ea2bd; margin-right:8px;'></i><a>" . $row["title"] . "</a></li>";
+                    echo "<li><i class='bi bi-check-circle-fill' style='font-size:20px;color:#0ea2bd; margin-right:8px;'></i><a href='?page=events&tab=news&department=" . $row["dept"] . "&id=" . $row["id"] . "'>" . $row["title"] . "</a></li>";
                 }
             } else {
                 echo "<li><i class='bi bi-check-circle-fill' style='font-size:20px;color:#0ea2bd; margin-right:8px;'></i>No guest lectures found for the selected department and section.</li>";
