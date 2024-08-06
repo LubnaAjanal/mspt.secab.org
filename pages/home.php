@@ -95,10 +95,10 @@
         background-color: #0ea2bd;
     }
 
-    .home-gallery{
+    .home-gallery {
 
         /* height:200px; */
-        width:100%;
+        width: 100%;
         object-fit: cover;
 
     }
@@ -178,41 +178,10 @@
             </button>
         </div>
     </div>
-    <!-- Gallery Section -->
-    <!-- Swiper -->
-    <!-- <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s1.jpg" alt="Image 1"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s2.jpg" alt="Image 2"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s3.jpg" alt="Image 3"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s4.jpg" alt="Image 4"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s5.jpg" alt="Image 5"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s6.jpg" alt="Image 6"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s7.jpg" alt="Image 7"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s9.jpg" alt="Image 9"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s10.jpg" alt="Image 10"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s11.jpg" alt="Image 11"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s12.jpg" alt="Image 12"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s13.jpg" alt="Image 13"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s14.jpg" alt="Image 14"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s15.jpg" alt="Image 15"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s16.jpg" alt="Image 16"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s17.jpg" alt="Image 17"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s18.jpg" alt="Image 18"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/s19.jpg" alt="Image 19"></div>
-            <div class="swiper-slide"><img src="../assets/img/home_gallery/campus_drive.jpg" alt="Image 20"></div>
-        </div> -->
-    <!-- Add Pagination -->
-    <!-- <div class="swiper-pagination"></div> -->
-    <!-- Add Navigation -->
-    <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div> -->
-    <!-- /Gallery Section -->
 
     <!-- College and News Section -->
     <section>
-        <div class=" main_container">
+        <div class="main_container">
             <div class="content-section about-college">
                 <div>
                     <img src="../assets/img/mspt_building_final.jpg" alt="College Image">

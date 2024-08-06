@@ -39,15 +39,22 @@
                 if (linkPath == currentPath) {
                     item.classList.add('active');
                     let parent = item.parentElement;
-                    while (parent && parent.classList.contains('dropdown')) {
+
+                    // Add 'active' class to parent elements
+                    while (parent && parent.tagName === 'LI') {
+                        parent.classList.add('active');
                         parent = parent.parentElement.closest('li');
-                        if (parent) {
-                            parent.querySelector('a').classList.add('active');
-                        }
                     }
+
                     activeSet = true;
                 } else {
                     item.classList.remove('active');
+                    // Remove 'active' class from parent elements
+                    let parent = item.parentElement;
+                    while (parent && parent.tagName === 'LI') {
+                        parent.classList.remove('active');
+                        parent = parent.parentElement.closest('li');
+                    }
                 }
             });
 
