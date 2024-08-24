@@ -37,7 +37,7 @@
 
     .btn {
         display: block;
-        width: 20%;
+        width: 15%;
         padding: 10px;
         margin-top: 20px;
         margin-left: 40%;
@@ -46,7 +46,7 @@
         border: none;
         border-radius: 4px;
         cursor: pointer;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
     }
@@ -58,7 +58,7 @@
 
 <div class="container mycontainer">
     <h2>Caste based discrimination complaint form for SC / ST / OBC Students / Teaching / Non-Teaching Staff</h2>
-    <form>
+    <form method="post" action="../dbFiles/insert.php">
 
         <div class="row">
             <div class="col-md-6">
@@ -99,20 +99,12 @@
         <div class="row">
             <div class="col-md-6">
                 <label>Category:</label>
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="sc">SC</label>
-                        <input type="radio" id="sc" name="sc" value="low" required>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="st">ST</label>
-                        <input type="radio" id="st" name="st" value="medium" required>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="obc">OBC</label>
-                        <input type="radio" id="obc" name="obc" value="high" required>
-                    </div>
-                </div>
+                <select id="category" name="category" required>
+                    <option value="" disabled selected>Select Category</option>
+                    <option>SC</option>
+                    <option>ST</option>
+                    <option>OBC</option>
+                </select>
             </div>
             
             <div class="col-md-6">
@@ -164,6 +156,6 @@
             </div>
         </div>
 
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn" name="cast">Submit</button>
     </form>
 </div>

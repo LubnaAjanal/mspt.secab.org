@@ -328,13 +328,13 @@
                         <h3>Enquiry Form</h3>
                         <!-- enquiry forum start-->
                         <div class="enquiry-form p-5">
-                            <form>
+                            <form method="post" action="../dbFiles/enquiry.php">
                                 <h3 class="text-center">MALIK SANDAL POLYTECHNIC, VIJAYPUR.</h3>
                                 <p>Date: 24/07/2424</p>
 
                                 <div class="form-group">
                                     <label for="candidate-name">Name Of Candidate</label>
-                                    <input type="text" class="form-control" id="candidate-name" placeholder="Enter candidate name">
+                                    <input type="text" class="form-control" id="candidate-name" name="candidate-name" placeholder="Enter candidate name">
                                 </div>
 
                                 <div class="form-group mt-4">
@@ -344,7 +344,7 @@
 
                                 <div class="form-group mt-4">
                                     <label for="dob">DOB</label>
-                                    <input type="date" class="form-control" id="dob">
+                                    <input type="date" class="form-control" id="dob" name="dob">
                                 </div>
 
                                 <div class="form-group mt-4">
@@ -364,35 +364,49 @@
 
                                 <div class="form-group mt-4">
                                     <label for="mobile-1">Mobile 1</label>
-                                    <input type="number" class="form-control" id="mobile-1" placeholder="Enter Mobile No 1">
+                                    <input type="number" class="form-control" id="mobile1" placeholder="Enter Mobile No 1">
                                 </div>
 
                                 <div class="form-group mt-4">
                                     <label for="mobile-2">Mobile 2</label>
-                                    <input type="number" class="form-control" id="mobile-2" placeholder="Enter Mobile No 2">
+                                    <input type="number" class="form-control" id="mobile2" placeholder="Enter Mobile No 2">
                                 </div>
 
                                 <h4 class="mt-4">Examination Passed</h4>
 
+                                <!-- Dropdown to select qualification -->
                                 <div class="form-group mt-4">
+                                    <label for="qualification">Select Qualification</label>
+                                    <select id="qualification" name="qualification" class="form-control">
+                                        <option value="" disabled selected>Select your qualification</option>
+                                        <option value="SSLC">SSLC/10th</option>
+                                        <option value="ITI">ITI</option>
+                                        <option value="PUC">PUC(Science)/12th</option>
+                                    </select>
+                                </div>
+
+                                <!-- SSLC/10th Form Group -->
+                                <div class="form-group mt-4 qualification-form" id="sslc-form" style="display:none;">
                                     <label>SSLC/10th</label>
-                                    <input type="number" class="form-control" placeholder="Marks">
-                                    <input type="number" class="form-control mt-3" placeholder="Percentage">
-                                    <input type="text" class="form-control mt-3" placeholder="Name of the Institution">
+                                    <input type="number" class="form-control" name="sslc_marks" placeholder="Marks">
+                                    <input type="number" class="form-control mt-3" name="sslc_percentage" placeholder="Percentage">
+                                    <input type="text" class="form-control mt-3" name="sslc_institution" placeholder="Name of the Institution">
                                 </div>
 
-                                <div class="form-group mt-4">
+                                <!-- ITI Form Group -->
+                                <div class="form-group mt-4 qualification-form" id="iti-form" style="display:none;">
                                     <label>ITI</label>
-                                    <input type="number" class="form-control" placeholder="Marks">
-                                    <input type="number" class="form-control mt-3" placeholder="Percentage">
-                                    <input type="text" class="form-control mt-3" placeholder="Name of the Institution">
+                                    <input type="number" class="form-control" name="iti_marks" placeholder="Marks">
+                                    <input type="number" class="form-control mt-3" name="iti_percentage" placeholder="Percentage">
+                                    <input type="text" class="form-control mt-3" name="iti_institution" placeholder="Name of the Institution">
                                 </div>
 
-                                <div class="form-group mt-4">
+                                <!-- PUC(Science)/12th Form Group -->
+                                <div class="form-group mt-4 qualification-form" id="puc-form" style="display:none;">
                                     <label>PUC(Science)/12th</label>
-                                    <input type="number" class="form-control" placeholder="Marks">
-                                    <input type="number" class="form-control mt-3" placeholder="Percentage">
-                                    <input type="text" class="form-control mt-3" placeholder="Name of the Institution">
+                                    <input type="number" class="form-control" name="puc_marks" placeholder="Marks">
+                                    <input type="number" class="form-control mt-3" name="puc_percentage" placeholder="Percentage">
+                                    <input type="text" class="form-control mt-3" name="puc_institution" placeholder="Name of the Institution">
                                 </div>
 
                                 <div class="form-group mt-4">
@@ -409,7 +423,7 @@
 
                                 <div class="form-group mt-4">
                                     <label for="branch">Branch Interested</label>
-                                    <select class="form-control" id="branch">
+                                    <select class="form-control" id="branch" name="branch">
                                         <option>Select your branch</option>
                                         <option>Computer Science & Engineering</option>
                                         <option>Civil Engineering</option>
@@ -423,10 +437,10 @@
 
                                 <div class="form-group mt-4">
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
                                 </div>
 
-                                <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                                <button type="submit" class="btn btn-primary mt-4" name="enquiry">Submit</button>
                             </form>
                         </div>
                         <!-- enquiry forum end -->
@@ -436,9 +450,26 @@
         </div>
 
     </div>
-
 </section><!-- /Features Section -->
 
+<script>
+    document.getElementById('qualification').addEventListener('change', function() {
+        // Hide all form groups
+        document.querySelectorAll('.qualification-form').forEach(function(form) {
+            form.style.display = 'none';
+        });
+
+        // Show the selected form group
+        var selectedQualification = this.value;
+        if (selectedQualification === 'SSLC') {
+            document.getElementById('sslc-form').style.display = 'block';
+        } else if (selectedQualification === 'ITI') {
+            document.getElementById('iti-form').style.display = 'block';
+        } else if (selectedQualification === 'PUC') {
+            document.getElementById('puc-form').style.display = 'block';
+        }
+    });
+</script>
 <?php
 include('../headerPages/top_footer.php');
 include('../headerPages/footer.php');

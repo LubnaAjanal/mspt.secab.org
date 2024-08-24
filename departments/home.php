@@ -1,7 +1,7 @@
 <style>
     /* home carousel slider */
     .carousel .carousel-inner {
-        height: 400px;
+        height: 500px;
         object-fit: cover;
     }
 

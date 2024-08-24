@@ -44,25 +44,28 @@
 
     .btn {
         display: block;
-        width: 100%;
+        width: 20%;
         padding: 10px;
         margin-top: 20px;
-        background-color: #28a745;
+        margin-left: 40%;
+        background-color: #0ea2bd;
         color: #fff;
         border: none;
-        border-radius: 3px;
+        border-radius: 4px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
     }
 
     .btn:hover {
-        background-color: #218838;
+        background-color: #0ea2bd;
     }
 </style>
 
 <div class="container mycontainer">
     <h2>COMPLAINT FORM FOR SEXUAL HARASSMENT</h2>
-    <form>
+    <form method="post" action="../dbFiles/insert.php">
 
         <div class="row">
             <div class="col-md-6">
@@ -101,13 +104,13 @@
         </div>
 
         <div class="row">
-        <div class="col-md-6">
+            <div class="col-md-6">
                 <label for="department">Name of the department:</label>
                 <select id="department" name="department" required>
                     <option value="" disabled selected>Select Department</option>
                     <!-- Add department options here -->
-                     <option>Basic Science</option>
-                     <option>Civil Engineering</option>
+                    <option>Basic Science</option>
+                    <option>Civil Engineering</option>
                     <option>Computer Science and Engineering</option>
                     <option>Electrical and Electronics Engineering</option>
                     <option>Electronics and Communication Engineering</option>
@@ -121,7 +124,7 @@
             <div class="col-md-6">
                 <label for="incident">Description of the incident (in brief):</label>
                 <textarea id="incident" name="incident" required placeholder="Enter Description"></textarea>
-            </div>           
+            </div>
         </div>
 
         <div class="row">
@@ -143,6 +146,6 @@
             </div>
         </div>
 
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn" name="harass">Submit</button>
     </form>
 </div>

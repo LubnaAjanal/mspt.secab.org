@@ -113,7 +113,7 @@
 $department = isset($_GET['department']) ? $_GET['department'] : 'No Dept';
 
 // Query to get the faculty details from the faculty table
-$sql = "SELECT * FROM `faculty` WHERE dept ='$department' AND `status` ='1' order by fid";
+$sql = "SELECT * FROM `faculty` WHERE dept ='$department' AND `status` ='1' order by priority";
 // print_r($sql);
 $result = mysqli_query($conn, $sql);
 ?>

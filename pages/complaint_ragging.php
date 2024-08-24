@@ -44,7 +44,7 @@
 
     .btn {
         display: block;
-        width: 20%;
+        width: 15%;
         padding: 10px;
         margin-top: 20px;
         margin-left: 40%;
@@ -53,7 +53,7 @@
         border: none;
         border-radius: 4px;
         cursor: pointer;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
     }
@@ -65,7 +65,7 @@
 
 <div class="container mycontainer">
     <h2>Ragging Complaint Form</h2>
-    <form>
+    <form method="post" action="../dbFiles/insert.php">
 
         <div class="row">
             <div class="col-md-6">
@@ -146,6 +146,6 @@
             </div>
         </div>
 
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn" name="ragging">Submit</button>
     </form>
 </div>
